@@ -1,0 +1,18 @@
+/*
+ * ULTRASONIC_config.h
+ *
+ * Created: 2/27/2026 11:43:24 PM
+ *  Author: hamza
+ */ 
+
+
+#ifndef ULTRASONIC_CONFIG_H_
+#define ULTRASONIC_CONFIG_H_
+
+#define ULTRASONIC_TRIGGER_PORT   DIO_PORTD
+#define ULTRASONIC_TRIGGER_PIN    DIO_PIN6
+
+#define ULTRASONIC_ECHO_PORT      DIO_PORTD
+#define ULTRASONIC_ECHO_PIN       DIO_PIN7
+
+#endif /* ULTRASONIC_CONFIG_H_ */
